@@ -41,9 +41,9 @@ Dorm_management_system/
 🛠️ **Tech Stack**
 
 - Backend: Django 5.2.1
-- Frontend: HTML5, Bootstrap
+- Frontend: HTML5, Bootstrap, JS and else
 - Auth: Django-Allauth
-- Database: SQLite3 (default)
+- Database: MYSQL
 - Deployment Ready: Gunicorn + Whitenoise
 
 ⚙️ **Installation**
