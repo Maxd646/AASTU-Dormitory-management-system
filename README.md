@@ -1,4 +1,4 @@
-**AASTU Dormitory Management System 🏢**
+🏢  **AASTU Dormitory Management System**
 
 A web-based dormitory management platform built using Django. This system helps AASTU dorm staff and proctors efficiently manage dormitory records, student allocations, reporting, and communication.
 
@@ -15,6 +15,7 @@ A web-based dormitory management platform built using Django. This system helps 
 🌐 Responsive front-end (HTML/CSS/Bootstrap)
 
 📁 **Project Structure**
+
 Dorm_management_system/
 ├── core/                  # Django core settings and URLs
 ├── templates/             # HTML templates (home, index, report)
@@ -24,6 +25,7 @@ Dorm_management_system/
 └── README.md              # Project documentation
 
 🛠️ **Tech Stack**
+
 - Backend: Django 5.2.1
 - Frontend: HTML5, Bootstrap
 - Auth: Django-Allauth
@@ -31,6 +33,7 @@ Dorm_management_system/
 - Deployment Ready: Gunicorn + Whitenoise
 
 ⚙️ **Installation**
+
 1. Clone the Repository
    git clone https://github.com/Maxd646/AASTU-Dormitory-management-system.git
    cd Dorm_management_system
@@ -49,6 +52,7 @@ Dorm_management_system/
    Open your browser and go to: http://127.0.0.1:8001
 
 🧪 **Testing Accounts**
+
 Proctor:
   - Username: proctor
   - Password: yourpassword
@@ -60,14 +64,17 @@ Staff:
 (⚠️ Replace with real or dummy credentials before sharing)
 
 📌 **Future Improvements**
-- Student self-registration and requests
-- Notifications via email or SMS
-- Admin analytics dashboard
-- Mobile responsiveness enhancements
+
++ Student self-registration and requests
++ Notifications via email or SMS
++ Admin analytics dashboard
++ Mobile responsiveness enhancements
 
 🙌 **Contribution**
+
 Contributions are welcome! Feel free to open issues or submit pull requests.
-📄 License
+📄**License**
+
 This project is licensed under the MIT License.
 
 Made with ❤️ by  – AASTU student, Software Engineering Department
