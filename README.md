@@ -1,7 +1,8 @@
-AASTU Dormitory Management System 🏢
+**AASTU Dormitory Management System 🏢**
+
 A web-based dormitory management platform built using Django. This system helps AASTU dorm staff and proctors efficiently manage dormitory records, student allocations, reporting, and communication.
 
-🚀 Features
+🚀 **Features**
 
 🧑‍💼 Separate Admin Panels:
   - Proctor Panel: Student assignments, approvals, notifications
@@ -13,7 +14,7 @@ A web-based dormitory management platform built using Django. This system helps 
 🎨 Custom HTML templates: Home, Index, and Report pages
 🌐 Responsive front-end (HTML/CSS/Bootstrap)
 
-📁 Project Structure
+📁 **Project Structure**
 Dorm_management_system/
 ├── core/                  # Django core settings and URLs
 ├── templates/             # HTML templates (home, index, report)
@@ -22,14 +23,14 @@ Dorm_management_system/
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
 
-🛠️ Tech Stack
+🛠️ **Tech Stack**
 - Backend: Django 5.2.1
 - Frontend: HTML5, Bootstrap
 - Auth: Django-Allauth
 - Database: SQLite3 (default)
 - Deployment Ready: Gunicorn + Whitenoise
 
-⚙️ Installation
+⚙️ **Installation**
 1. Clone the Repository
    git clone https://github.com/Maxd646/AASTU-Dormitory-management-system.git
    cd Dorm_management_system
@@ -47,7 +48,7 @@ Dorm_management_system/
 5. Access the App
    Open your browser and go to: http://127.0.0.1:8001
 
-🧪 Testing Accounts
+🧪 **Testing Accounts**
 Proctor:
   - Username: proctor
   - Password: yourpassword
@@ -58,15 +59,15 @@ Staff:
 
 (⚠️ Replace with real or dummy credentials before sharing)
 
-📌 Future Improvements
+📌 **Future Improvements**
 - Student self-registration and requests
 - Notifications via email or SMS
 - Admin analytics dashboard
 - Mobile responsiveness enhancements
 
-🙌 Contribution
+🙌 **Contribution**
 Contributions are welcome! Feel free to open issues or submit pull requests.
 📄 License
 This project is licensed under the MIT License.
 
-Made with ❤️ by Team 6 – AASTU, Software Engineering Department
+Made with ❤️ by  – AASTU student, Software Engineering Department
