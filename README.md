@@ -25,6 +25,7 @@
 📁 **Project Structure**
 
 Dorm_management_system/
+
 ├── core/                  # Django core settings and URLs
 
 ├── templates/             # HTML templates (home, index, report)
