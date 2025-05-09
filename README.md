@@ -1,27 +1,40 @@
 🏢  **AASTU Dormitory Management System**
 
-A web-based dormitory management platform built using Django. This system helps AASTU dorm staff and proctors efficiently manage dormitory records, student allocations, reporting, and communication.
++ A web-based dormitory management platform built using Django.
++ This system helps AASTU dorm staff and proctors efficiently manage dormitory records, student allocations, reporting, and communication.
 
 🚀 **Features**
 
 🧑‍💼 Separate Admin Panels:
-  - Proctor Panel: Student assignments, approvals, notifications
-  - Staff Panel: Room management, bed availability, maintenance tracking
+
++ Proctor Panel: Student assignments, approvals, notifications
++ Staff Panel: Room management, bed availability, maintenance tracking
+  
 📋 Student Information Management
+
 🛏️ Bed and Room Allocation System
+
 📊 Report Generation
+
 🔐 Authentication using Django-Allauth
+
 🎨 Custom HTML templates: Home, Index, and Report pages
+
 🌐 Responsive front-end (HTML/CSS/Bootstrap)
 
 📁 **Project Structure**
 
 Dorm_management_system/
 ├── core/                  # Django core settings and URLs
+
 ├── templates/             # HTML templates (home, index, report)
+
 ├── staticfiles/           # Static assets
+
 ├── manage.py              # Django's CLI utility
+
 ├── requirements.txt       # Project dependencies
+
 └── README.md              # Project documentation
 
 🛠️ **Tech Stack**
@@ -35,20 +48,25 @@ Dorm_management_system/
 ⚙️ **Installation**
 
 1. Clone the Repository
+
    git clone https://github.com/Maxd646/AASTU-Dormitory-management-system.git
    cd Dorm_management_system
 
-2. Set Up Virtual Environment
+3. Set Up Virtual Environment
+   
    python -m venv .venv
    .\.venv\Scripts\activate
 
-3. Install Dependencies
+5. Install Dependencies
+   
    pip install -r requirements.txt
 
-4. Run the Server
+7. Run the Server
+   
    python manage.py runserver 8001
 
-5. Access the App
+9. Access the App
+    
    Open your browser and go to: http://127.0.0.1:8001
 
 🧪 **Testing Accounts**
