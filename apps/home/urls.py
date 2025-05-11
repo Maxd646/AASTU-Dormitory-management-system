@@ -7,9 +7,10 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.index_view, name='index'),
-    path('home/', views.home_view, name='home'),
-    path('report/', views.report_view, name='report'),
-    
+    path('', views.About, name='about'),
+    path('index/', views.Index, name='index'),
+    path('book/', views.Book, name='book'),
+    path('menu/', views.Menu, name='menu'),
+ 
 ]
 

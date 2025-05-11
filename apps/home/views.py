@@ -41,13 +41,23 @@ def pages(request):
         html_template = loader.get_template('home/page-500.html')
         return HttpResponse(html_template.render(context, request))
 from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 
-def index_view(request):
-    return render(request, 'index.html')  # no subfolder
+def About(request):
+    return render(request, 'about.html')  # no subfolder
 
-def home_view(request):
-    return render(request, 'home.html')
+def Index(request):
+    return render(request, 'index.html')
 
-def report_view(request):
-    return render(request, 'report.html')
+def Book(request):
+    return render(request, 'book.html')
+
+def Menu(request):
+    return render(request, 'menu.html')
+
+# About page
+def about(request):
+    return render(request, 'about.html')
+
 
